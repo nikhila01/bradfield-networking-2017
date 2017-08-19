@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+# This is someone elses Ruby solution as well from class: https://github.com/andrewdollard/pcap-parser
+
 # http://networkstatic.net/what-are-ethernet-ip-and-tcp-headers-in-wireshark-captures/
 # IP Headers - https://en.wikipedia.org/wiki/IPv4#Source_address
 require 'pcap'
