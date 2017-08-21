@@ -1,0 +1,24 @@
+Which packet here is the first "data" packet?
+(i.e. the first packet that isn't part of the three way handshake)
+  Who sends the first data packet, the client or the host?
+  What kind of information do we expect that packet to contain?
+
+15 has the http request
+
+What IP address is the "client" and which is the "server"?
+  How can you tell? (there are multiple ways to deduce this...)
+
+syn flag
+
+When does the server start transmitting data to the client?
+  After that, how many packets are sent to the client before the client ACKs?
+
+16
+asks on 17
+
+Something interesting is happening between packets 45-66, what explanation
+would you offer for this behavior?
+ack is staying the same so client must not be 
+
+In which packet does the client request the connection to close?
+client requests is 98
